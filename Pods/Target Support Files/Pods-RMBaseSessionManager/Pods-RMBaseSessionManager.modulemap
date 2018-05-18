@@ -1,0 +1,6 @@
+framework module Pods_RMBaseSessionManager {
+  umbrella header "Pods-RMBaseSessionManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

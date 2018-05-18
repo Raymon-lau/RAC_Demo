@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CE7948BFD985E69FEA5FB18 /* Pods_RMBaseSessionManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA46E0520AD67AF00E26803 /* Pods_RMBaseSessionManager.framework */; };
+		7CA46DB720AD64D100E26803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DB620AD64D100E26803 /* AppDelegate.m */; };
+		7CA46DBD20AD64D100E26803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA46DBB20AD64D100E26803 /* Main.storyboard */; };
+		7CA46DBF20AD64D200E26803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA46DBE20AD64D200E26803 /* Assets.xcassets */; };
+		7CA46DC220AD64D200E26803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA46DC020AD64D200E26803 /* LaunchScreen.storyboard */; };
+		7CA46DCF20AD64D200E26803 /* RACDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DCE20AD64D200E26803 /* RACDemoTests.m */; };
+		7CA46DDA20AD64D200E26803 /* RACDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DD920AD64D200E26803 /* RACDemoUITests.m */; };
+		7CA46DFD20AD655300E26803 /* IMShopCartBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DED20AD655300E26803 /* IMShopCartBar.m */; };
+		7CA46DFE20AD655300E26803 /* IMShopCartFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DEF20AD655300E26803 /* IMShopCartFooterView.m */; };
+		7CA46DFF20AD655300E26803 /* IMShopCartNumberCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DF020AD655300E26803 /* IMShopCartNumberCount.m */; };
+		7CA46E0020AD655300E26803 /* IMShopCartHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DF220AD655300E26803 /* IMShopCartHeaderView.m */; };
+		7CA46E0120AD655300E26803 /* IMShopCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CA46DF520AD655300E26803 /* IMShopCartCell.xib */; };
+		7CA46E0220AD655300E26803 /* IMShopCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46DF720AD655300E26803 /* IMShopCartCell.m */; };
+		7CA46E2D20AE63D700E26803 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA46E2C20AE63D700E26803 /* ReactiveCocoa.framework */; };
+		7CA46E2F20AE63DE00E26803 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA46E2E20AE63DE00E26803 /* ReactiveObjC.framework */; };
+		7CA46E3120AE640D00E26803 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA46E3020AE640D00E26803 /* ReactiveCocoa.framework */; };
+		7CA46E3320AE641100E26803 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA46E3220AE641100E26803 /* ReactiveObjC.framework */; };
+		7CA46E4120AE681500E26803 /* UIView+General.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46E3F20AE681500E26803 /* UIView+General.m */; };
+		7CA46E4520AE6DD500E26803 /* IMShopCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46E4320AE6DD500E26803 /* IMShopCartModel.m */; };
+		7CA46E4C20AE767800E26803 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46E4720AE767800E26803 /* ViewController.m */; };
+		7CA46E4D20AE767800E26803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46E4A20AE767800E26803 /* main.m */; };
+		7CA46E4E20AE767800E26803 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA46E4B20AE767800E26803 /* Info.plist */; };
+		7CA46E5420AE76AF00E26803 /* IMShopCartUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46E5120AE76AF00E26803 /* IMShopCartUIService.m */; };
+		7CA46E5520AE76AF00E26803 /* IMShopCartViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA46E5320AE76AF00E26803 /* IMShopCartViewModel.m */; };
+		7CA46E5720AE77E100E26803 /* modelData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA46E5620AE77E000E26803 /* modelData.plist */; };
+		908DF8A31FE3D42500DF10F4 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 908DF8A21FE3D42500DF10F4 /* View.xib */; };
 		90919E461FDF8253006557D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90919E451FDF8253006557D6 /* AppDelegate.m */; };
 		90919E491FDF8253006557D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90919E481FDF8253006557D6 /* ViewController.m */; };
 		90919E4C1FDF8253006557D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90919E4A1FDF8253006557D6 /* Main.storyboard */; };
@@ -15,9 +41,25 @@
 		90919E541FDF8253006557D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90919E531FDF8253006557D6 /* main.m */; };
 		90919E5E1FDF8254006557D6 /* RMBaseSessionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90919E5D1FDF8254006557D6 /* RMBaseSessionManagerTests.m */; };
 		90919E691FDF8254006557D6 /* RMBaseSessionManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90919E681FDF8254006557D6 /* RMBaseSessionManagerUITests.m */; };
+		90919E781FDFCA05006557D6 /* RMBaseSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90919E771FDFCA05006557D6 /* RMBaseSessionManager.m */; };
+		C1D8D6EDF87D3E61F7D65222 /* Pods_RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01222147F99493E9AC53D750 /* Pods_RACDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7CA46DCB20AD64D200E26803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90919E391FDF8252006557D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA46DB220AD64D100E26803;
+			remoteInfo = RACDemo;
+		};
+		7CA46DD620AD64D200E26803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90919E391FDF8252006557D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA46DB220AD64D100E26803;
+			remoteInfo = RACDemo;
+		};
 		90919E5A1FDF8254006557D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90919E391FDF8252006557D6 /* Project object */;
@@ -35,6 +77,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01222147F99493E9AC53D750 /* Pods_RACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B3FDC2B562F36FA99BCC9A /* Pods-RACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.release.xcconfig"; sourceTree = "<group>"; };
+		669D2AE2BA5548EE19683A06 /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA46DB320AD64D100E26803 /* RACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46DB520AD64D100E26803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CA46DB620AD64D100E26803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CA46DBC20AD64D100E26803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CA46DBE20AD64D200E26803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA46DC120AD64D200E26803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CA46DCA20AD64D200E26803 /* RACDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46DCE20AD64D200E26803 /* RACDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACDemoTests.m; sourceTree = "<group>"; };
+		7CA46DD020AD64D200E26803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA46DD520AD64D200E26803 /* RACDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46DD920AD64D200E26803 /* RACDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACDemoUITests.m; sourceTree = "<group>"; };
+		7CA46DDB20AD64D200E26803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA46DED20AD655300E26803 /* IMShopCartBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartBar.m; sourceTree = "<group>"; };
+		7CA46DEE20AD655300E26803 /* IMShopCartHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartHeaderView.h; sourceTree = "<group>"; };
+		7CA46DEF20AD655300E26803 /* IMShopCartFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartFooterView.m; sourceTree = "<group>"; };
+		7CA46DF020AD655300E26803 /* IMShopCartNumberCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartNumberCount.m; sourceTree = "<group>"; };
+		7CA46DF120AD655300E26803 /* IMShopCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartCell.h; sourceTree = "<group>"; };
+		7CA46DF220AD655300E26803 /* IMShopCartHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartHeaderView.m; sourceTree = "<group>"; };
+		7CA46DF320AD655300E26803 /* IMShopCartBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartBar.h; sourceTree = "<group>"; };
+		7CA46DF420AD655300E26803 /* IMShopCartNumberCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartNumberCount.h; sourceTree = "<group>"; };
+		7CA46DF520AD655300E26803 /* IMShopCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IMShopCartCell.xib; sourceTree = "<group>"; };
+		7CA46DF620AD655300E26803 /* IMShopCartFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartFooterView.h; sourceTree = "<group>"; };
+		7CA46DF720AD655300E26803 /* IMShopCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartCell.m; sourceTree = "<group>"; };
+		7CA46E0420AD666600E26803 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7CA46E0520AD67AF00E26803 /* Pods_RMBaseSessionManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RMBaseSessionManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46E1420AD6FA000E26803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CA46E1520AD6FA000E26803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CA46E1620AD6FA000E26803 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CA46E1720AD6FA000E26803 /* RMBaseSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMBaseSessionManager.m; sourceTree = "<group>"; };
+		7CA46E1920AD6FA000E26803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CA46E1B20AD6FA000E26803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CA46E1C20AD6FA000E26803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CA46E1D20AD6FA000E26803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CA46E1E20AD6FA000E26803 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		7CA46E1F20AD6FA000E26803 /* RMBaseSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMBaseSessionManager.h; sourceTree = "<group>"; };
+		7CA46E2020AD6FA000E26803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA46E2120AD6FA000E26803 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CA46E2C20AE63D700E26803 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46E2E20AE63DE00E26803 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46E3020AE640D00E26803 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46E3220AE641100E26803 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA46E3F20AE681500E26803 /* UIView+General.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+General.m"; sourceTree = "<group>"; };
+		7CA46E4020AE681500E26803 /* UIView+General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+General.h"; sourceTree = "<group>"; };
+		7CA46E4320AE6DD500E26803 /* IMShopCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartModel.m; sourceTree = "<group>"; };
+		7CA46E4420AE6DD500E26803 /* IMShopCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartModel.h; sourceTree = "<group>"; };
+		7CA46E4720AE767800E26803 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CA46E4820AE767800E26803 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CA46E4A20AE767800E26803 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CA46E4B20AE767800E26803 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA46E5020AE76AF00E26803 /* IMShopCartViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartViewModel.h; sourceTree = "<group>"; };
+		7CA46E5120AE76AF00E26803 /* IMShopCartUIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartUIService.m; sourceTree = "<group>"; };
+		7CA46E5220AE76AF00E26803 /* IMShopCartUIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMShopCartUIService.h; sourceTree = "<group>"; };
+		7CA46E5320AE76AF00E26803 /* IMShopCartViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMShopCartViewModel.m; sourceTree = "<group>"; };
+		7CA46E5620AE77E000E26803 /* modelData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = modelData.plist; sourceTree = "<group>"; };
+		908DF8A21FE3D42500DF10F4 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		90919E411FDF8252006557D6 /* RMBaseSessionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMBaseSessionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90919E441FDF8252006557D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90919E451FDF8253006557D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,13 +151,46 @@
 		90919E641FDF8254006557D6 /* RMBaseSessionManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMBaseSessionManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90919E681FDF8254006557D6 /* RMBaseSessionManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMBaseSessionManagerUITests.m; sourceTree = "<group>"; };
 		90919E6A1FDF8254006557D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90919E761FDFCA05006557D6 /* RMBaseSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMBaseSessionManager.h; sourceTree = "<group>"; };
+		90919E771FDFCA05006557D6 /* RMBaseSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMBaseSessionManager.m; sourceTree = "<group>"; };
+		9BAB87D40B716A12B0D2D45D /* Pods_RMBaseSessionManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMBaseSessionManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BD52A21070AFF176A50AAA /* Pods-RMBaseSessionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMBaseSessionManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMBaseSessionManager/Pods-RMBaseSessionManager.release.xcconfig"; sourceTree = "<group>"; };
+		B8C9C9796E6364F7D15977AE /* Pods-RMBaseSessionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMBaseSessionManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMBaseSessionManager/Pods-RMBaseSessionManager.debug.xcconfig"; sourceTree = "<group>"; };
+		BA785BA4534E2CEA250693D6 /* Pods_RMBaseSessionManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMBaseSessionManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7CA46DB020AD64D100E26803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA46E2F20AE63DE00E26803 /* ReactiveObjC.framework in Frameworks */,
+				7CA46E2D20AE63D700E26803 /* ReactiveCocoa.framework in Frameworks */,
+				C1D8D6EDF87D3E61F7D65222 /* Pods_RACDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA46DC720AD64D200E26803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA46DD220AD64D200E26803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90919E3E1FDF8252006557D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA46E3320AE641100E26803 /* ReactiveObjC.framework in Frameworks */,
+				7CA46E3120AE640D00E26803 /* ReactiveCocoa.framework in Frameworks */,
+				0CE7948BFD985E69FEA5FB18 /* Pods_RMBaseSessionManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +211,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5228723EDE787D822EBB11CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				669D2AE2BA5548EE19683A06 /* Pods-RACDemo.debug.xcconfig */,
+				39B3FDC2B562F36FA99BCC9A /* Pods-RACDemo.release.xcconfig */,
+				B8C9C9796E6364F7D15977AE /* Pods-RMBaseSessionManager.debug.xcconfig */,
+				B0BD52A21070AFF176A50AAA /* Pods-RMBaseSessionManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CA46DB420AD64D100E26803 /* RACDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46DB520AD64D100E26803 /* AppDelegate.h */,
+				7CA46DB620AD64D100E26803 /* AppDelegate.m */,
+				7CA46E4620AE767800E26803 /* controller */,
+				7CA46E4220AE6DD500E26803 /* model */,
+				7CA46E4920AE767800E26803 /* support */,
+				7CA46E3E20AE681500E26803 /* tools */,
+				7CA46DEC20AD655300E26803 /* view */,
+				7CA46E4F20AE76AF00E26803 /* viewModel */,
+			);
+			path = RACDemo;
+			sourceTree = "<group>";
+		};
+		7CA46DCD20AD64D200E26803 /* RACDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46DCE20AD64D200E26803 /* RACDemoTests.m */,
+				7CA46DD020AD64D200E26803 /* Info.plist */,
+			);
+			path = RACDemoTests;
+			sourceTree = "<group>";
+		};
+		7CA46DD820AD64D200E26803 /* RACDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46DD920AD64D200E26803 /* RACDemoUITests.m */,
+				7CA46DDB20AD64D200E26803 /* Info.plist */,
+			);
+			path = RACDemoUITests;
+			sourceTree = "<group>";
+		};
+		7CA46DEC20AD655300E26803 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46DF320AD655300E26803 /* IMShopCartBar.h */,
+				7CA46DED20AD655300E26803 /* IMShopCartBar.m */,
+				7CA46DF120AD655300E26803 /* IMShopCartCell.h */,
+				7CA46DF720AD655300E26803 /* IMShopCartCell.m */,
+				7CA46DF520AD655300E26803 /* IMShopCartCell.xib */,
+				7CA46DF620AD655300E26803 /* IMShopCartFooterView.h */,
+				7CA46DEF20AD655300E26803 /* IMShopCartFooterView.m */,
+				7CA46DEE20AD655300E26803 /* IMShopCartHeaderView.h */,
+				7CA46DF220AD655300E26803 /* IMShopCartHeaderView.m */,
+				7CA46DF420AD655300E26803 /* IMShopCartNumberCount.h */,
+				7CA46DF020AD655300E26803 /* IMShopCartNumberCount.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7CA46E1320AD6FA000E26803 /* RMBaseSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46E1420AD6FA000E26803 /* AppDelegate.h */,
+				7CA46E1520AD6FA000E26803 /* Assets.xcassets */,
+				7CA46E1620AD6FA000E26803 /* ViewController.m */,
+				7CA46E1720AD6FA000E26803 /* RMBaseSessionManager.m */,
+				7CA46E1820AD6FA000E26803 /* LaunchScreen.storyboard */,
+				7CA46E1A20AD6FA000E26803 /* Main.storyboard */,
+				7CA46E1C20AD6FA000E26803 /* main.m */,
+				7CA46E1D20AD6FA000E26803 /* AppDelegate.m */,
+				7CA46E1E20AD6FA000E26803 /* View.xib */,
+				7CA46E1F20AD6FA000E26803 /* RMBaseSessionManager.h */,
+				7CA46E2020AD6FA000E26803 /* Info.plist */,
+				7CA46E2120AD6FA000E26803 /* ViewController.h */,
+			);
+			path = RMBaseSessionManager;
+			sourceTree = "<group>";
+		};
+		7CA46E3E20AE681500E26803 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46E3F20AE681500E26803 /* UIView+General.m */,
+				7CA46E4020AE681500E26803 /* UIView+General.h */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		7CA46E4220AE6DD500E26803 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46E4420AE6DD500E26803 /* IMShopCartModel.h */,
+				7CA46E4320AE6DD500E26803 /* IMShopCartModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7CA46E4620AE767800E26803 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46E4820AE767800E26803 /* ViewController.h */,
+				7CA46E4720AE767800E26803 /* ViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7CA46E4920AE767800E26803 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46DBE20AD64D200E26803 /* Assets.xcassets */,
+				7CA46DC020AD64D200E26803 /* LaunchScreen.storyboard */,
+				7CA46DBB20AD64D100E26803 /* Main.storyboard */,
+				7CA46E4A20AE767800E26803 /* main.m */,
+				7CA46E4B20AE767800E26803 /* Info.plist */,
+				7CA46E5620AE77E000E26803 /* modelData.plist */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		7CA46E4F20AE76AF00E26803 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46E5220AE76AF00E26803 /* IMShopCartUIService.h */,
+				7CA46E5120AE76AF00E26803 /* IMShopCartUIService.m */,
+				7CA46E5020AE76AF00E26803 /* IMShopCartViewModel.h */,
+				7CA46E5320AE76AF00E26803 /* IMShopCartViewModel.m */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
 		90919E381FDF8251006557D6 = {
 			isa = PBXGroup;
 			children = (
 				90919E431FDF8252006557D6 /* RMBaseSessionManager */,
 				90919E5C1FDF8254006557D6 /* RMBaseSessionManagerTests */,
 				90919E671FDF8254006557D6 /* RMBaseSessionManagerUITests */,
+				7CA46DB420AD64D100E26803 /* RACDemo */,
+				7CA46DCD20AD64D200E26803 /* RACDemoTests */,
+				7CA46DD820AD64D200E26803 /* RACDemoUITests */,
 				90919E421FDF8252006557D6 /* Products */,
+				7CA46E0420AD666600E26803 /* PrefixHeader.pch */,
+				5228723EDE787D822EBB11CC /* Pods */,
+				EAF9C1024C2B3CC111D0C128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +365,9 @@
 				90919E411FDF8252006557D6 /* RMBaseSessionManager.app */,
 				90919E591FDF8254006557D6 /* RMBaseSessionManagerTests.xctest */,
 				90919E641FDF8254006557D6 /* RMBaseSessionManagerUITests.xctest */,
+				7CA46DB320AD64D100E26803 /* RACDemo.app */,
+				7CA46DCA20AD64D200E26803 /* RACDemoTests.xctest */,
+				7CA46DD520AD64D200E26803 /* RACDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +379,9 @@
 				90919E451FDF8253006557D6 /* AppDelegate.m */,
 				90919E471FDF8253006557D6 /* ViewController.h */,
 				90919E481FDF8253006557D6 /* ViewController.m */,
+				908DF8A21FE3D42500DF10F4 /* View.xib */,
+				90919E761FDFCA05006557D6 /* RMBaseSessionManager.h */,
+				90919E771FDFCA05006557D6 /* RMBaseSessionManager.m */,
 				90919E4A1FDF8253006557D6 /* Main.storyboard */,
 				90919E4D1FDF8253006557D6 /* Assets.xcassets */,
 				90919E4F1FDF8253006557D6 /* LaunchScreen.storyboard */,
@@ -132,16 +409,89 @@
 			path = RMBaseSessionManagerUITests;
 			sourceTree = "<group>";
 		};
+		EAF9C1024C2B3CC111D0C128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CA46E3220AE641100E26803 /* ReactiveObjC.framework */,
+				7CA46E3020AE640D00E26803 /* ReactiveCocoa.framework */,
+				7CA46E2E20AE63DE00E26803 /* ReactiveObjC.framework */,
+				7CA46E2C20AE63D700E26803 /* ReactiveCocoa.framework */,
+				7CA46E1320AD6FA000E26803 /* RMBaseSessionManager */,
+				7CA46E0520AD67AF00E26803 /* Pods_RMBaseSessionManager.framework */,
+				BA785BA4534E2CEA250693D6 /* Pods_RMBaseSessionManager.framework */,
+				9BAB87D40B716A12B0D2D45D /* Pods_RMBaseSessionManagerTests.framework */,
+				01222147F99493E9AC53D750 /* Pods_RACDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7CA46DB220AD64D100E26803 /* RACDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA46DE220AD64D200E26803 /* Build configuration list for PBXNativeTarget "RACDemo" */;
+			buildPhases = (
+				9E5C4BFE6FB327B900B28E6D /* [CP] Check Pods Manifest.lock */,
+				7CA46DAF20AD64D100E26803 /* Sources */,
+				7CA46DB020AD64D100E26803 /* Frameworks */,
+				7CA46DB120AD64D100E26803 /* Resources */,
+				CD469ECCBADAC9DCA38EAFB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACDemo;
+			productName = RACDemo;
+			productReference = 7CA46DB320AD64D100E26803 /* RACDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CA46DC920AD64D200E26803 /* RACDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA46DE320AD64D200E26803 /* Build configuration list for PBXNativeTarget "RACDemoTests" */;
+			buildPhases = (
+				7CA46DC620AD64D200E26803 /* Sources */,
+				7CA46DC720AD64D200E26803 /* Frameworks */,
+				7CA46DC820AD64D200E26803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA46DCC20AD64D200E26803 /* PBXTargetDependency */,
+			);
+			name = RACDemoTests;
+			productName = RACDemoTests;
+			productReference = 7CA46DCA20AD64D200E26803 /* RACDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CA46DD420AD64D200E26803 /* RACDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA46DE420AD64D200E26803 /* Build configuration list for PBXNativeTarget "RACDemoUITests" */;
+			buildPhases = (
+				7CA46DD120AD64D200E26803 /* Sources */,
+				7CA46DD220AD64D200E26803 /* Frameworks */,
+				7CA46DD320AD64D200E26803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA46DD720AD64D200E26803 /* PBXTargetDependency */,
+			);
+			name = RACDemoUITests;
+			productName = RACDemoUITests;
+			productReference = 7CA46DD520AD64D200E26803 /* RACDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		90919E401FDF8252006557D6 /* RMBaseSessionManager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90919E6D1FDF8254006557D6 /* Build configuration list for PBXNativeTarget "RMBaseSessionManager" */;
 			buildPhases = (
+				DE34A33C331C8FA04B96F27E /* [CP] Check Pods Manifest.lock */,
 				90919E3D1FDF8252006557D6 /* Sources */,
 				90919E3E1FDF8252006557D6 /* Frameworks */,
 				90919E3F1FDF8252006557D6 /* Resources */,
+				3980044269CC76D7F684D70C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +547,20 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Raymon;
 				TargetAttributes = {
+					7CA46DB220AD64D100E26803 = {
+						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CA46DC920AD64D200E26803 = {
+						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CA46DB220AD64D100E26803;
+					};
+					7CA46DD420AD64D200E26803 = {
+						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CA46DB220AD64D100E26803;
+					};
 					90919E401FDF8252006557D6 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -229,15 +593,46 @@
 				90919E401FDF8252006557D6 /* RMBaseSessionManager */,
 				90919E581FDF8254006557D6 /* RMBaseSessionManagerTests */,
 				90919E631FDF8254006557D6 /* RMBaseSessionManagerUITests */,
+				7CA46DB220AD64D100E26803 /* RACDemo */,
+				7CA46DC920AD64D200E26803 /* RACDemoTests */,
+				7CA46DD420AD64D200E26803 /* RACDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7CA46DB120AD64D100E26803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA46E5720AE77E100E26803 /* modelData.plist in Resources */,
+				7CA46DC220AD64D200E26803 /* LaunchScreen.storyboard in Resources */,
+				7CA46E0120AD655300E26803 /* IMShopCartCell.xib in Resources */,
+				7CA46DBF20AD64D200E26803 /* Assets.xcassets in Resources */,
+				7CA46E4E20AE767800E26803 /* Info.plist in Resources */,
+				7CA46DBD20AD64D100E26803 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA46DC820AD64D200E26803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA46DD320AD64D200E26803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90919E3F1FDF8252006557D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908DF8A31FE3D42500DF10F4 /* View.xib in Resources */,
 				90919E511FDF8253006557D6 /* LaunchScreen.storyboard in Resources */,
 				90919E4E1FDF8253006557D6 /* Assets.xcassets in Resources */,
 				90919E4C1FDF8253006557D6 /* Main.storyboard in Resources */,
@@ -260,13 +655,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3980044269CC76D7F684D70C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RMBaseSessionManager/Pods-RMBaseSessionManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMBaseSessionManager/Pods-RMBaseSessionManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5C4BFE6FB327B900B28E6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD469ECCBADAC9DCA38EAFB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE34A33C331C8FA04B96F27E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RMBaseSessionManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7CA46DAF20AD64D100E26803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA46E0020AD655300E26803 /* IMShopCartHeaderView.m in Sources */,
+				7CA46DB720AD64D100E26803 /* AppDelegate.m in Sources */,
+				7CA46DFF20AD655300E26803 /* IMShopCartNumberCount.m in Sources */,
+				7CA46E4C20AE767800E26803 /* ViewController.m in Sources */,
+				7CA46E0220AD655300E26803 /* IMShopCartCell.m in Sources */,
+				7CA46DFE20AD655300E26803 /* IMShopCartFooterView.m in Sources */,
+				7CA46E5520AE76AF00E26803 /* IMShopCartViewModel.m in Sources */,
+				7CA46E4120AE681500E26803 /* UIView+General.m in Sources */,
+				7CA46DFD20AD655300E26803 /* IMShopCartBar.m in Sources */,
+				7CA46E4D20AE767800E26803 /* main.m in Sources */,
+				7CA46E5420AE76AF00E26803 /* IMShopCartUIService.m in Sources */,
+				7CA46E4520AE6DD500E26803 /* IMShopCartModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA46DC620AD64D200E26803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA46DCF20AD64D200E26803 /* RACDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA46DD120AD64D200E26803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA46DDA20AD64D200E26803 /* RACDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90919E3D1FDF8252006557D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90919E491FDF8253006557D6 /* ViewController.m in Sources */,
 				90919E541FDF8253006557D6 /* main.m in Sources */,
+				90919E781FDFCA05006557D6 /* RMBaseSessionManager.m in Sources */,
 				90919E461FDF8253006557D6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +812,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7CA46DCC20AD64D200E26803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA46DB220AD64D100E26803 /* RACDemo */;
+			targetProxy = 7CA46DCB20AD64D200E26803 /* PBXContainerItemProxy */;
+		};
+		7CA46DD720AD64D200E26803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA46DB220AD64D100E26803 /* RACDemo */;
+			targetProxy = 7CA46DD620AD64D200E26803 /* PBXContainerItemProxy */;
+		};
 		90919E5B1FDF8254006557D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 90919E401FDF8252006557D6 /* RMBaseSessionManager */;
@@ -303,6 +835,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7CA46DBB20AD64D100E26803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA46DBC20AD64D100E26803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CA46DC020AD64D200E26803 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA46DC120AD64D200E26803 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7CA46E1820AD6FA000E26803 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA46E1920AD6FA000E26803 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7CA46E1A20AD6FA000E26803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA46E1B20AD6FA000E26803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		90919E4A1FDF8253006557D6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,6 +886,116 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7CA46DDC20AD64D200E26803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669D2AE2BA5548EE19683A06 /* Pods-RACDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RACDemo/support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		7CA46DDD20AD64D200E26803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B3FDC2B562F36FA99BCC9A /* Pods-RACDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RACDemo/support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		7CA46DDE20AD64D200E26803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RACDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACDemo.app/RACDemo";
+			};
+			name = Debug;
+		};
+		7CA46DDF20AD64D200E26803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RACDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RACDemo.app/RACDemo";
+			};
+			name = Release;
+		};
+		7CA46DE020AD64D200E26803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RACDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACDemo;
+			};
+			name = Debug;
+		};
+		7CA46DE120AD64D200E26803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RACDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.RACDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RACDemo;
+			};
+			name = Release;
+		};
 		90919E6B1FDF8254006557D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,27 +1102,33 @@
 		};
 		90919E6E1FDF8254006557D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C9C9796E6364F7D15977AE /* Pods-RMBaseSessionManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RMBaseSessionManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Raymon.RMBaseSessionManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		90919E6F1FDF8254006557D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BD52A21070AFF176A50AAA /* Pods-RMBaseSessionManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = RMBaseSessionManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Raymon.RMBaseSessionManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -509,6 +1189,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7CA46DE220AD64D200E26803 /* Build configuration list for PBXNativeTarget "RACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA46DDC20AD64D200E26803 /* Debug */,
+				7CA46DDD20AD64D200E26803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA46DE320AD64D200E26803 /* Build configuration list for PBXNativeTarget "RACDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA46DDE20AD64D200E26803 /* Debug */,
+				7CA46DDF20AD64D200E26803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA46DE420AD64D200E26803 /* Build configuration list for PBXNativeTarget "RACDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA46DE020AD64D200E26803 /* Debug */,
+				7CA46DE120AD64D200E26803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		90919E3C1FDF8252006557D6 /* Build configuration list for PBXProject "RMBaseSessionManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
