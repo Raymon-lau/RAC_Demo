@@ -1,5 +1,7 @@
+#里面包含两个工程,请注意查看,RACDemo是项目实践内容,RMBaseSessionManager是基本使用
 # RAC_Demo
 
+/Users/stellasun/Downloads/QQ20180518-180030-HD.mp4
 // 为了实现高聚合，低耦合的编程思想而封装的扩展类
 // 例如在响应事件处理业务逻辑的时候用到的action、delegate、KVO、callback等都可以通过RAC来处理.
 // Signal信号是数据流,类似水龙头,数据都是线性处理的，不会出现并发情况,接收方就是接水盆,没有水盆的时候,水龙头是关闭状态
@@ -90,7 +92,5 @@ NSLog(@"%@",x);
 } error:^(NSError *error) {
 NSLog(@"%@",error);
 }];
-
-
 
 */
