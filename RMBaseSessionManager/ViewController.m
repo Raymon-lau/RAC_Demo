@@ -27,16 +27,27 @@
 #pragma 1  signal
     // 1.创建信号
     RACSignal *signal = [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
-        // 发送信号
-        [subscriber sendNext:@"发送信号"];
-        return nil;
+        //3. 发送信号
+        [subscriber sendNext:@"发送信号1"];
+        // 4.取消信号，如果信号想要被取消，就必须返回一个RACDisposable
+        // 信号什么时候被取消：1.自动取消，当一个信号的订阅者被销毁的时候机会自动取消订阅，2.手动取消，
+        //block什么时候调用：一旦一个信号被取消订阅就会调用
+        //block作用：当信号被取消时用于清空一些资源
+        return [RACDisposable disposableWithBlock:^{
+            NSLog(@"取消订阅");
+        }];
     }];
     
-    // 订阅信号
+    
+    // 2.订阅信号
+    //subscribeNext
+    // 把nextBlock保存到订阅者里面
+    // 只要订阅信号就会返回一个取消订阅信号的类
     RACDisposable *disposable = [signal subscribeNext:^(id  _Nullable x) {
-        NSLog(@"信号内容:%@",x);
+        NSLog(@"信号内容1:%@",x);
     }];
-    
+    // 取消订阅
+    [disposable dispose];
     
 //    //把信号转化为连接类
 //    RACMulticastConnection *multicastConnection =  [signal publish];
@@ -61,15 +72,14 @@
     /* 创建信号 */
     RACSubject *subject = [RACSubject subject];
     
-    /* 发送信号 */
-    [subject sendNext:@"发送信号"];
-    
     /* 订阅信号（通常在别的视图控制器中订阅，与代理的用法类似） */
     [subject subscribeNext:^(id  _Nullable x) {
         
-        NSLog(@"信号内容：%@", x);
+        NSLog(@"信号内容2：%@", x);
     }];
     
+    /* 发送信号 */
+    [subject sendNext:@"发送信号2"];
     
 #pragma 3  RAC 的元祖，跟我们 OC 的数组其实是一样的，它其实就是封装了我们 OC 的数组
     /* 创建元祖 */
@@ -104,7 +114,7 @@
     // 替换数据
     /* 内容操作 */
     NSArray *array1 = @[@"1", @"2", @"3", @"4", @"5"];
-    NSArray *newArray1 = [[array.rac_sequence map:^id _Nullable(id  _Nullable value) {
+    NSArray *newArray1 = [[array1.rac_sequence map:^id _Nullable(id  _Nullable value) {
         
         NSLog(@"数组内容：%@", value);
         
@@ -114,7 +124,9 @@
     
     /* 内容快速替换 */
     NSArray *array2 = @[@"1", @"2", @"3", @"4", @"5"];
-    NSArray *newArray2 = [[array.rac_sequence mapReplace:@"0"] array]; // 将所有内容替换为 0
+    NSArray *newArray2 = [[array2.rac_sequence mapReplace:@"0"] array]; // 将所有内容替换为 0
+    
+    NSLog(@"*****%@\n****%@",newArray1,newArray2);
     
 #pragma 5 监听textfield状态
     // 监测textField输入状态
@@ -126,6 +138,8 @@
     /** flattenMap*/
     [[textField.rac_textSignal flattenMap:^__kindof RACSignal * _Nullable(NSString * _Nullable value) {
         // 监测输入框变化
+        // 返回信号
+        // 开发中，如果信号发出的值是信号，映射一般使用FlatternMap
         return [RACReturnSignal return:[NSString stringWithFormat:@"输出:%@",value]];
     }] subscribeNext:^(id  _Nullable x) {
         // 当输入框变化的时候回调
@@ -134,9 +148,21 @@
     
     /** map*/
     [[textField.rac_textSignal map:^id _Nullable(NSString * _Nullable value) {
+        // 返回对象
+        // 开发中，如果信号发出的值不是信号，映射一般使用Map
         return [NSString stringWithFormat:@"信号内容: %@",value];
     }] subscribeNext:^(id  _Nullable x) {
         NSLog(@"+++++%@",x);
+    }];
+    
+    /** filter*/
+    // 只有当文本框的内容长度大于5，才获取文本框里的内容
+    [[textField.rac_textSignal filter:^BOOL(id value) {
+        // value 源信号的内容
+        return [value length] > 5;
+        // 返回值 就是过滤条件。只有满足这个条件才能获取到内容
+    }] subscribeNext:^(id x) {
+        NSLog(@"~~~~~~%@", x);
     }];
     
     [self.view addSubview:textField];
